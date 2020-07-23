@@ -1,0 +1,16 @@
+var device = ["Keyboard","Mouse","Printer","Monitor"]
+document.write("<b> Devices: </b>" +device)
+document.write("<br>")
+document.write("<br>")
+var device1=device.shift(0)
+document.write("<b> Out: </b> <br>" +device1)
+document.write("<br>")
+var device2=device.shift(1)
+document.write("<b> Out: </b> <br>" +device2)
+document.write("<br>")
+var device3=device.shift(2)
+document.write("<b> Out: </b> <br>" +device3)
+document.write("<br>")
+var device4=device.shift(3)
+document.write("<b> Out: </b> <br>" +device4)
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .model_open{
+    background-color: aqua;
+    width: 50%;
+    height: 400px;
+     
+    text-align: center;
+     
+    
+}
+.imageclass{
+    width: 50%;
+    height: 200px;
+}
+.model_close{
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+ 
+.btn_div{
+    padding-top: 20px;
+
+
+}
+.forImage{
+    background-color: azure;
+     
+    height: 200px;
+}
+.imgclass{
+    width: 40%;
+    height: 200px;
+}
+
+    </style>
+</head>
+<body>
+    <div id="model"   >
+        <h1>This Image</h1>
+        <div class="forImage">
+            <img src="" id="modelImage" alt="" class="imageclass">
+        </div>
+        <div class="btn_div">
+            <button  onclick="close_model()" id="close" >close</button>
+             
+        </div>
+         
+    </div>
+    <div id="display_image">
+
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

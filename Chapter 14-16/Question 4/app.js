@@ -1,0 +1,2 @@
+var rollno = ["101" , "102" , "103" , "104"]
+alert(rollno[2])

@@ -1,0 +1,17 @@
+document.write("<h1>The Lifetime Supply Calculator</h1>")
+var Fav_Snack = prompt("Enter your favourite Snack")
+document.write("<br><br>")
+document.write("Favourite Snack: "+Fav_Snack)
+var age = prompt("Enter your age")
+document.write("<br>")
+document.write("Current age: "+age)
+var max_age = prompt("Enter maximum age")
+document.write("<br>")
+document.write("Estimated maximum age: "+max_age)
+var amount = prompt("Enter amount of snack")
+document.write("<br>")
+document.write("Amount of snack per day: "+amount)
+var rest_age = max_age - age
+var more_snacks = (rest_age * 365) * amount
+document.write("<br>")
+document.write("You will need "+more_snacks+ " " +Fav_Snack + " to last you until the ripe old age of " +max_age)
